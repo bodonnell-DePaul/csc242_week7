@@ -10,3 +10,12 @@ def factorial(n):
     for i in range(1, n+1):
         total *= i
     return total
+
+
+recursiveRetVal = fact(50)
+print("recursive")
+print(recursiveRetVal)
+
+nonRecursive = factorial(50)
+print("non recursive")
+print(nonRecursive)
